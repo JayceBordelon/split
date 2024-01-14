@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold; /* Large and bold for h1 */
+  }
+  h2 {
+    @apply text-3xl font-semibold; /* Slightly smaller for h2 */
+  }
+  h3 {
+    @apply text-2xl font-semibold; /* Medium size for h3 */
+  }
+  h4 {
+    @apply text-xl font-medium; /* Regular size for h4 */
+  }
+  h5 {
+    @apply text-lg; /* Slightly smaller for h5 */
+  }
+  h6 {
+    @apply text-base; /* Standard size for h6, similar to normal text */
+  }
+  p {
+    @apply text-base; /* Standard text size for paragraphs */
+  }
+}
+
