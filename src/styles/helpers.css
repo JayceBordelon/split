@@ -1,0 +1,20 @@
+/* This class will hide elements on screens smaller than 768px */
+.mobile-hidden {
+    display: initial;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-hidden {
+        display: none !important;
+    }
+}
+
+.table-fixed {
+    table-layout: fixed;
+    width: 100%;
+    /* Typically, you want your table to span the full width of its container */
+}
+
+.table-fixed td {
+    margin-right: 20px !important;
+}

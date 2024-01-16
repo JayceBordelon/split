@@ -16,7 +16,8 @@ export const registerUser = (email, password) => {
             await setDoc(userDocRef, {
                 // Add any user fields you need here
                 email: user.email,
-                // ...other fields
+                meals: [],
+                foodLog: []
             });
 
             // Store user_id in localStorage
